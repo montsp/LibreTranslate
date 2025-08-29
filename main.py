@@ -12,8 +12,7 @@ def start_server():
     sys.argv = [
         'libretranslate',
         '--host', '0.0.0.0',
-        '--port', port,
-        '--cors-allow-origin', "*",
+        '--port', port
     ]
 
     main()
