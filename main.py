@@ -12,7 +12,7 @@ def start_server():
     sys.argv = [
         'libretranslate',
         '--host', '0.0.0.0',
-        '--port', port
+        '--port', port if port else '5000'
     ]
 
     main()
