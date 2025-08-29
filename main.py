@@ -13,8 +13,7 @@ def start_server():
         'libretranslate',
         '--host', '0.0.0.0',
         '--port', port,
-        '--cors-allow-origin', cors_origin,
-        '--load-only', load_only
+        '--cors-allow-origin', "*",
     ]
 
     main()
